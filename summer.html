@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <nav class="navbar position-fixed z-3 w-100  navbar-expand-lg pe-lg-5  bg-light">
+        <div class="container-fluid">
+            <a class="logooo" href="index.html">
+                <img src="images/logo.png" class="EduLogo ms-lg-5" width="80" alt="EduLogo">
+            </a>
+
+            <div class=" navbar-center d-flex align-items-center mx-auto">
+                <form class="d-flex navvvvv me-2 me-lg-0 position-relative">
+                    <i class="fas fa-search icons position-absolute top-50 start-0 translate-middle-y ms-2"></i>
+                    <input class="form-control me-2 py-2 search-input" type="search"
+                        placeholder="Search for courses, topics, or instructors" aria-label="Search">
+                </form>
+                <button class="btn btn-outline-success btn-sm d-block d-md-inline-block my-md-0 rounded " type="button"
+                    data-bs-toggle="modal" data-bs-target="#loginModal">
+                    <i class="fas fa-sign-in-alt"></i> Login
+                </button>
+
+                <button class="btn btn-outline-success btn-sm d-block d-md-inline-block mx-2 my-2 my-md-0 rounded "
+                    type="button" data-bs-toggle="modal" data-bs-target="#signupModal">
+                    <i class="fas fa-user-plus"></i> Signup
+                </button>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link nav-background-color" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="worksheet.html">Worksheet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="summer.html">Summer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="summer-bg ">
+        <h2 class="text-center text-capitalize summer_text">summer boost</h2>
+        <div class="dropdown text-center mt-4 ">
+            <button class="dropdown_css btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Week
+            </button>
+            <ul class="dropdown-menu  ">
+                <li><a class="dropdown-item" href="#">Week 1 </a></li>
+                <li><a class="dropdown-item" href="#">Week 2 </a></li>
+                <li><a class="dropdown-item" href="#">Week 3 </a></li>
+                <li><a class="dropdown-item" href="#">Week 4 </a></li>
+                <li><a class="dropdown-item" href="#">Week 5 </a></li>
+                <li><a class="dropdown-item" href="#">Week 6 </a></li>
+                <li><a class="dropdown-item" href="#">Week 7 </a></li>
+                <li><a class="dropdown-item" href="#">Week 8 </a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="max-w-100 py-5">
+        <h2 class="text-center mb-5">Practice, Play, and Prepare for Kindergarten</h2>
+        <div class="container d-flex flex-wrap gap-3">
+            <div class="card overflow-hidden card_box  summer_card ">
+                <div>
+                    <img src="images/musical-magical-hoops-slide.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="px-3 py-3 position-absolute bg-white bottom_box" style="bottom: 0px;  width: 100%;">
+                    <h6 class="card-text" style=" color: #464646;">
+                        Musical Magical Hoops!
+                    </h6>
+                    <div>
+                        <span>Activity</span>
+                        <i class="fa-regular fa-bookmark fs-5 position-absolute box-input"></i>
+                    </div>
+                    <div class="card_hover" style="height: 100px;">
+                        <button class="download_btn">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card overflow-hidden card_box  summer_card ">
+                <div>
+                    <img src="images/most-least-ski-racer-2022-12-13 (1).png" class="card-img-top" alt="...">
+                </div>
+                <div class="px-3 py-3 position-absolute bg-white bottom_box" style="bottom: 0px;  width: 100%;">
+                    <h6 class="card-text" style=" color: #464646;">
+                        Most Least Ski Racer
+                    </h6>
+                    <div>
+                        <span>Game</span>
+                        <i class="fa-regular fa-bookmark fs-5 position-absolute box-input"></i>
+                    </div>
+                    <div class="card_hover">
+
+                        <button class="download_btn">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card overflow-hidden card_box  summer_card ">
+                <div>
+                    <img src="images/alphabet-cloud-catcher-capital-letters.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="px-3 py-3 position-absolute bg-white bottom_box" style="bottom: 0px;  width: 100%;">
+                    <h6 class="card-text" style=" color: #464646;">
+                        Alphabet Cloud Catcher: Capital Letters
+                    </h6>
+                    <div>
+                        <span>Game</span>
+                        <i class="fa-regular fa-bookmark fs-5 position-absolute box-input"></i>
+                    </div>
+                    <div class="card_hover">
+
+                        <button class="download_btn">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card overflow-hidden card_box  summer_card ">
+                <div>
+                    <img src="images/learning-subtraction-1-5-math-2023-01-25.gif" class="card-img-top" alt="...">
+                </div>
+                <div class="px-3 py-3 position-absolute bg-white bottom_box" style="bottom: 0px;  width: 100%;">
+                    <h6 class="card-text" style=" color: #464646;">
+                        Let's Practice Subtraction! 1–5
+                    </h6>
+                    <div>
+                        <span>Activity</span>
+                        <i class="fa-regular fa-bookmark fs-5 position-absolute box-input"></i>
+                    </div>
+                    <div class="card_hover">
+
+                        <button class="download_btn">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card overflow-hidden card_box  summer_card ">
+                <div>
+                    <img src="images/color-rhymes-rhyming-colors-preschool-2023-01-25.gif" class="card-img-top"
+                        alt="...">
+                </div>
+                <div class="px-3 py-3 position-absolute bg-white bottom_box" style="bottom: 0px;  width: 100%;">
+                    <h6 class="card-text" style=" color: #464646;">
+                        Color Rhymes
+                    </h6>
+                    <div>
+                        <span>Activity</span>
+                        <i class="fa-regular fa-bookmark fs-5 position-absolute box-input"></i>
+                    </div>
+                    <div class="card_hover">
+
+                        <button class="download_btn">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card overflow-hidden card_box  summer_card ">
+                <div>
+                    <img src="images/dot-reading-2023-01-25.gif" class="card-img-top" alt="...">
+                </div>
+                <div class="px-3 py-3 position-absolute bg-white bottom_box" style="bottom: 0px;  width: 100%;">
+                    <h6 class="card-text" style=" color: #464646;">
+                        Dot Reading
+                    </h6>
+                    <div>
+                        <span>Activity</span>
+                        <i class="fa-regular fa-bookmark fs-5 position-absolute box-input"></i>
+                    </div>
+                    <div class="card_hover">
+
+                        <button class="download_btn">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card overflow-hidden card_box  summer_card ">
+                <div>
+                    <img src="images/musical-magical-hoops-slide.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="px-3 py-3 position-absolute bg-white bottom_box w-100 b-0" >
+                    <h6 class="card-text" style=" color: #464646;">
+                        Musical Magical Hoops!
+                    </h6>
+                    <div>
+                        <span>Activity</span>
+                        <i class="fa-regular fa-bookmark fs-5 position-absolute box-input"></i>
+                    </div>
+                    <div class="card_hover" style="height: 100px;">
+                        <button class="download_btn">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card overflow-hidden card_box  summer_card ">
+                <div>
+                    <img src="images/most-least-ski-racer-2022-12-13 (1).png" class="card-img-top" alt="...">
+                </div>
+                <div class="px-3 py-3 position-absolute bg-white bottom_box" style="bottom: 0px;  width: 100%;">
+                    <h6 class="card-text" style=" color: #464646;">
+                        Most Least Ski Racer
+                    </h6>
+                    <div>
+                        <span>Game</span>
+                        <i class="fa-regular fa-bookmark fs-5 position-absolute box-input"></i>
+                    </div>
+                    <div class="card_hover">
+
+                        <button class="download_btn">
+                            Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="w-full offer-footer">
+        <div class="container footer_top d-flex justify-content-between ">
+
+            <img class="w-100 h-100" src="images/children-learn-dream-elements-png_228698-removebg-preview.png" alt="">
+
+            <div class=" soakclass py-5">
+                <h3 class="font-soak">
+                    Soak up the sun… <br>
+                    and savings!
+                </h3>
+                <p>
+                    Find a treasure trove of activities to keep your kids active and learning this summer: make
+                    sand
+                    dough,
+                    launch a bottle rocket, or draw a superhero using geometry! Alongside our printables, games,
+                    and
+                    interactive stories, your summer adventurers won’t have a chance to be bored.
+                </p>
+                <button class="off_50">Get 50% off now</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" title="Facebook"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" title="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="row">
+                <!-- Educational Tools -->
+                <div class="col-md-3 footer-section">
+                    <h5>Educational Tools</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Learning Library</a></li>
+                        <li><a href="#">Worksheets</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Interactive Worksheets</a></li>
+                        <li><a href="#">Worksheet Generator</a></li>
+                        <li><a href="#">Lesson Plans</a></li>
+                        <li><a href="#">Common Core Resources</a></li>
+                        <li><a href="#">Guided Lessons</a></li>
+                        <li><a href="#">Progress Tracker</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div class="col-md-3 footer-section">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Education.com For Schools</a></li>
+                        <li><a href="#">Get a Quote</a></li>
+                        <li><a href="#">Give Gift</a></li>
+                        <li><a href="#">Redeem Gift</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Connect -->
+                <div class="col-md-3 footer-section">
+                    <h5>Connect</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Tell Us What You Think</a></li>
+                    </ul>
+                </div>
+
+                <!-- About -->
+                <div class="col-md-3 footer-section">
+                    <h5>About</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">COPPA Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">Copyright © 2024 Kidos.com• All Rights Reserved.</p>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>

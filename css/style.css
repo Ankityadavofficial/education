@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-input {
+    padding-left: 2.5rem;
+}
+.icons {
+    font-size: 1.25rem;
+}
+.search-button {
+    font-size: 1rem;
+}
+.navbar-brand img {
+    max-height: 50px;
+}
+.search-button {
+    border-radius: 25px;
+    font-size: 1.25rem;
+}
+.search-button i {
+    font-size: 1.5rem;
+}
+.form-control {
+    font-size: 1rem;
+}
+.icons {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.25rem;
+}
+.navbar-nav .nav-link {
+    margin-left: 1rem;
+}
+.socialButtons__facebook,
+.socialButtons__google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+.socialButtons__facebook img,
+.socialButtons__google img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+}
+.bts-hero-section {
+    background: url(/images/hero-image-2x.jpg) no-repeat 50%;
+    background-size: cover;
+    height: 550px;
+    display: inline-block;
+    width: 100%;
+    padding: 100px 0;
+}
+.bts-hero-section1 {
+    background: url(/images/Blue\ Green\ Yellow\ Illustrative\ Education\ YouTube\ Banner\ \(1\).png) no-repeat 50%;
+    background-size: cover;
+    height: 550px;
+    display: inline-block;
+    width: 100%;
+    padding: 100px 0;
+}
+.bts-hero-section2 {
+    background: url(/images/Green\ &\ Blue\ Illustrated\ Kids\ YouTube\ Banner.png) no-repeat 50%;
+    background-size: cover;
+    height: 550px;
+    display: inline-block;
+    width: 100%;
+    padding: 100px 0;
+}
+.section-text {
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+}
+.section-text1 {
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+    margin-top: 170px;
+}
+.section-text2 {
+    margin-top: 190px;
+}
+.bts-hero-section .btn {
+    font-size: 1.25rem;
+}
+.textAndButton {
+    padding: 60px 15px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+.highlight {
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+}
+.carousel-section {
+    padding: 60px 15px;
+}
+.carousel-top {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.carousel-top .airplane img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+.carousel-top .textAndButton h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.carousel-top .textAndButton .highlight {
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+}
+.content-types {
+    margin-bottom: 30px;
+}
+.content-type {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content-header img {
+    max-width: 60px;
+    margin-bottom: 10px;
+}
+.content-description {
+    margin-bottom: 20px;
+}
+.buttonContainer {
+    margin-top: 20px;
+}
+.premium-section {
+    position: relative;
+    background-color: #ffded1;
+    text-align: center;
+}
+.roly {
+    top: 380px;
+    right: 120px;
+}
+.line2 {
+    top: 350px;
+    right: 50px;
+}
+.pt {
+    margin-bottom: 200px;
+}
+.line1 {
+    top: -360px;
+    left: -60px;
+}
+.box-shadow {
+    box-shadow: 0px 0px 5px #00b5ba;
+}
+.box-input {
+    bottom: 10px;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+    z-index: 2;
+    cursor: pointer;
+}
+.card_hover {
+    background: white;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    transform: translateY(10%);
+    transition: all 0.5s ease;
+}
+.card_p {
+    font-size: 13px;
+}
+.card_box:hover .card_hover {
+    transform: translateY(-100%);
+}
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 3rem 0;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #17a2b8;
+    text-decoration: underline;
+}
+.footer .container {
+    max-width: 1200px;
+}
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #17a2b8;
+    padding-bottom: 0.5rem;
+}
+.footer .list-unstyled {
+    padding-left: 0;
+}
+.footer .list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+.social-icons {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.social-icons a {
+    color: #ffffff;
+    font-size: 1.75rem;
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #17a2b8;
+}
+.footer-section {
+    border-top: 1px solid #495057;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.summer-bg {
+    margin-top: 66px;
+    background: url(/images/summer-boost-hero-graphic.svg) no-repeat 50%;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    padding: 30px 0px;
+    padding-bottom: 130px;
+}
+.summer_text {
+    clear: both;
+    color: #326f8f;
+    font-size: 50px;
+}
+.dropdown_css {
+    width: 150px;
+    border-radius: 20px;
+}
+.font-soak {
+    font-size: 40px;
+    color: #00B5BA;
+}
+.off_50 {
+    border: none;
+    border-radius: 30px;
+    background-color: #00B5BA;
+    padding: 10px 24px;
+    color: white;
+    font-weight: 700;
+}
+.off_50:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+.nav-background-color {
+    color: #00B5BA;
+    font-weight: 600;
+}
+.box-input {
+    bottom: 10px;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+    z-index: 2;
+}
+.card_hover {
+    width: 100%;
+    background: white;
+    padding: 25px;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    transform: translateY(10%);
+    transition: all 0.5s ease;
+}
+.card_p {
+    font-size: 13px;
+}
+.card_box:hover .card_hover {
+    transform: translateY(-100%);
+}
+.download_btn {
+    margin-top: 10px;
+    padding: 8px 30px;
+    border-radius: 30px;
+    color: #00B5BA;
+    border: 1px solid #00B5BA;
+}
+.summer_card {
+    height: 300px;
+}
+.bottom_box {
+    height: 110px;
+}
+.offer-footer {
+    background-color: #bde9f4;
+}
+.footer_top {
+    background-color: #BDE9F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.offer-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-content h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.text-content p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 3rem 0;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #17a2b8;
+    text-decoration: underline;
+}
+.footer .container {
+    max-width: 1200px;
+}
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #17a2b8;
+    padding-bottom: 0.5rem;
+}
+.footer .list-unstyled {
+    padding-left: 0;
+}
+.footer .list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+.social-icons {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.social-icons a {
+    color: #ffffff;
+    font-size: 1.75rem;
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #17a2b8;
+}
+.footer-section {
+    border-top: 1px solid #495057;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.device {
+    float: left;
+    width: 610px;
+    height: 430px;
+    position: relative;
+    max-width: 100%;
+    z-index: 2;
+    flex: 0 0 651px;
+}
+.device .image {
+    position: absolute;
+    width: 610px;
+    height: 430px;
+    top: 0;
+    left: 0;
+    background: url(/images/device.png) no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.shadow-box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
